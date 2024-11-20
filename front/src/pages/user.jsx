@@ -7,7 +7,7 @@ export default function Userpage() {
     console.log(data.author)
     useEffect(()=> {
         if (!data.author.pass) {
-            // navigate('/')
+            navigate('/')
         } else {
 
         }
